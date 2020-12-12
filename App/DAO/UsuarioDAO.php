@@ -27,7 +27,7 @@ class UsuarioDAO extends Crud
 
         $sql = "SELECT * FROM $this->tabela WHERE username = :username";
         $stmt = DB::prepare($sql);
-        $stmt->bindParam(':username', strtoupper($userName));
+        $stmt->bindParam(':username', $userName);
         $stmt->execute();
 
         $usuario = $stmt->fetch(PDO::FETCH_ASSOC);

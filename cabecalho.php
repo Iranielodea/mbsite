@@ -36,16 +36,16 @@
     </div>
   </li>
   
-  <!-- <li class="nav-item dropdown">
+  <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Faturamento</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Ação</a>
-      <a class="dropdown-item" href="#">Outra ação</a>
+      <a class="dropdown-item" href="pedido.php">Pedidos</a>
+      <!-- <a class="dropdown-item" href="#">Outra ação</a>
       <a class="dropdown-item" href="#">Algo mais aqui</a>
       <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Link isolado</a>
+      <a class="dropdown-item" href="#">Link isolado</a> -->
     </div>
-  </li> -->
+  </li>
   
   <li class="nav-item">
     <a class="nav-link" href="close.php">Sair</a>
