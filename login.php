@@ -51,14 +51,14 @@ require_once 'cabecalho.php';
                                 }
                             ?>
                         </p>
-                        <p class="text-center text-danger">
+                        <!-- <p class="text-center text-danger">
                             <?php
-                                if (isset($_SESSION['secury'])){
-                                    echo $_SESSION['secury'];
-                                    unset($_SESSION['secury']);
-                                }
+                                // if (isset($_SESSION['secury'])){
+                                //     echo $_SESSION['secury'];
+                                //     unset($_SESSION['secury']);
+                                // }
                             ?>
-                        </p>
+                        </p> -->
                   </div>
               </div>
           </div>
